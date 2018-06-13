@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+body {
+    background-color: #3399CC;
+    color: #FFF;
+    font-family:sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 75%;
+    max-width: 700px;
+}
+
+.header {
+    padding: 50px 0 20px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 26px;
+  
+}
+
+.list {
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    list-style: none;
+    font-size: 0;
+}
+.list li{
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 0;
+    border: 2px solid white;
+    font-family:'Montserrat'
+
+}
+.list:hover{
+    opacity: 1;
+    
+}
+.list li:hover{
+    opacity: 0.5;
+    
+}
+.one {
+    width: 25%;
+    background: red;
+}
+.double {
+    width: 50%;
+    background: black;
+}
+.big {
+    width: 100%;
+    background: green;
+}
+.list li:nth-child(1) {
+    background-color: #39C;
+}
+.list li:nth-child(2) {
+    background-color: #33CCCC;
+}
+.list li:nth-child(3) {
+    background-color: #996699;
+}
+.list li:nth-child(4) {
+    background-color: #C24747;
+}
+.list li:nth-child(5) {
+    background-color: #E2674A;
+}
+.list li:nth-child(6) {
+    background-color: #FFCC66;
+}
+.list li:nth-child(7) {
+    background-color: #99CC99;
+}
+.list li:nth-child(8) {
+    background-color: #669999;
+}
+.list li:nth-child(9) {
+    background-color: #CC6699;
+}
+.list li:nth-child(10) {
+    background-color: #339966;
+}
+.list li:nth-child(11) {
+    background-color: #666699;
+}
+i{
+    margin: 0 5px;
+    font-size: 30px;
+    vertical-align: bottom;
+}
+.list p{
+    font-weight: 600;
+}
+.list-grade{
+    margin:10px 0 0 0;
+}
+footer{
+    margin: 20px 0 0 0;
+}
+@media screen and (max-width: 600px) {
+    .list li{
+        width: 100%;
+    }
+}
